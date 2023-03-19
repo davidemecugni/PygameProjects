@@ -65,6 +65,7 @@ class Astarapp():
         # P for pacman effect
         # 1 or 2 or 3 or 4 or 5 for different algorithms
         # C to clear
+        # D to toggle diagonals
         # E to toggle showing the algorithm
         # UP and DOWN to fast or slow the algorithm
         # S to save
@@ -90,7 +91,13 @@ class Astarapp():
             else:
                 self.settings.pacman = True
             self.pacman_update(self.grid)
-
+            
+        if event.key == pygame.K_d:
+            if self.settings.diagonals:
+                self.settings.diagonals = False
+            else:
+                self.settings.diagonals = True
+                
         if event.key == pygame.K_c:
             self.state.a_star_started = False
             self.state.start = None
@@ -110,11 +117,7 @@ class Astarapp():
             else:
                 self.settings.showcalc = True
 
-        if event.key == pygame.K_e:
-            if self.settings.showcalc:
-                self.diagonals = False
-            else:
-                self.diagonals = True
+
 
         if event.key == pygame.K_UP:
             self.settings.interval_draw += 10

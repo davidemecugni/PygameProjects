@@ -14,7 +14,6 @@ class Settings:
         self.caption = "A* algorithm"
 
         # Optimization
-
         self.diagonals = True
         # Defines if a diagonal barrier is legit in diagonal space
         self.consider_barrier = True
