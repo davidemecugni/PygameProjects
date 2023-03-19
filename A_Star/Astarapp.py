@@ -110,6 +110,12 @@ class Astarapp():
             else:
                 self.settings.showcalc = True
 
+        if event.key == pygame.K_e:
+            if self.settings.showcalc:
+                self.diagonals = False
+            else:
+                self.diagonals = True
+
         if event.key == pygame.K_UP:
             self.settings.interval_draw += 10
         if event.key == pygame.K_DOWN and self.settings.interval_draw > 5:
