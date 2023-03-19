@@ -10,7 +10,7 @@ S to save \
 Space to start 
 ## 1 or 2 or 3 or 4 or 5 for different heuristics: 
 1 = "dijkstra" No information given for the position of the destination\
-2 = "taxicab" No diagonals \ 
-3 = "taxicabdiagonal" Excellent time with diagonals \
-4 = "distance"  Linear distance / Good time \
-5 = "maxdistance" Excess moves / sure shortest for diagonals \
+2 = "taxicab" No diagonals   \ 
+3 = "taxicabdiagonal" Excellent time with diagonals   \
+4 = "distance"  Linear distance / Good time   \
+5 = "maxdistance" Excess moves / sure shortest for diagonals 
