@@ -1,6 +1,6 @@
 # Commands
-Use a left click to place the starting position, the next left click to place the destination. Then place all the obstacles as you please with left clicks. A write click cancels the blocks placed.
-
+Use a left click to place the starting position, the next left click to place the destination. Then place all the obstacles as you please with left clicks. A right click cancels the blocks placed.
+![plot](./example.png)
 ESC to close  
 P for pacman effect  
 C to clear the board  
