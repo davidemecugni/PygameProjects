@@ -1,4 +1,5 @@
 # Commands
+Use a left click to place the starting position, the next left click to place the destination. Then place all the obstacles as you please with left clicks. A write click cancels the blocks placed.
 
 ESC to close  
 P for pacman effect  
